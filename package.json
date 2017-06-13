@@ -1,0 +1,39 @@
+{
+  "name": "tdd-presentation",
+  "version": "1.0.0",
+  "description": "short presentation about TDD",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StefiSimon/TDD-presentation.git"
+  },
+  "author": "s.simon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StefiSimon/TDD-presentation/issues"
+  },
+  "homepage": "https://github.com/StefiSimon/TDD-presentation#readme",
+  "dependencies": {
+    "animate.css": "^3.5.2",
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-decorators": "^6.24.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "chai": "^4.0.2",
+    "express": "^4.15.3",
+    "file-loader": "^0.11.2",
+    "isomorphic-fetch": "^2.2.1",
+    "mocha": "^3.4.2",
+    "scss-loader": "0.0.1",
+    "style-loader": "^0.18.2",
+    "webpack": "^2.6.1",
+    "webpack-dev-middleware": "^1.10.2",
+    "webpack-dev-server": "^2.4.5",
+    "webpack-hot-middleware": "^2.18.0"
+  }
+}
