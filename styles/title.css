@@ -1,5 +1,5 @@
 .title-container {
-    height: 600px;
+    height: 650px;
     text-align: center;
     background: url(http://i.imgur.com/X3JZ4z9.jpg?1);
 }
@@ -23,4 +23,10 @@
     font-size: 20px;
     font-family: 'Lato', sans-serif;
     color: darkgray;
+}
+
+.title-container i {
+    font-size: 70px;
+    color: white;
+    cursor: pointer;
 }

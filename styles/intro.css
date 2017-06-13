@@ -1,0 +1,26 @@
+.introduction-container {
+    padding: 150px 100px;
+    background-color: gainsboro;
+}
+
+.intro-column {
+    position: relative;
+    width: 50%;
+    text-align: center;
+}
+.introduction-title {
+    text-transform: uppercase;
+    font-size: 32px;
+    color: #262626;
+    margin-bottom: 50px;
+}
+.introduction-info-main.introduction-info {
+    padding: 0;
+    font-size: 24px;
+    color: #3f3f3f;
+}
+.introduction-info {
+    padding: 25px;
+    font-size: 18px;
+    color: #4d4d4d;
+}
