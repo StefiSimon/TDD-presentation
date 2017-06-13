@@ -1,0 +1,26 @@
+.title-container {
+    height: 600px;
+    text-align: center;
+    background: url(http://i.imgur.com/X3JZ4z9.jpg?1);
+}
+
+.title-text {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight:100;
+    padding: 200px 0;
+    font-size: 100px;
+    color: white;
+    letter-spacing: 10px;
+}
+
+.title-text span {
+    border-bottom: 1px solid gainsboro;
+}
+
+.title-subtext {
+    letter-spacing: 0px;
+    padding-top: 20px;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    color: darkgray;
+}

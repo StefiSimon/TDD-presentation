@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Roboto');
+@import './styles/title.css';
+
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+}
+
+.header-container {
+  position: fixed;
+  width: 100%;
+  padding: 20px 50px;
+  color: white;
+  background-color: transparent;
+}
+
+.header-container.gold {
+  background-color: white;
+  color: #262626;
+}
+
+.header-title {
+  font-size: 20px;
+  font-weight: 100;
+}
