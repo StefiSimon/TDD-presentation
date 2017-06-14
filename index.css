@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Roboto');
-@import './styles/title.css';
-@import './styles/intro.css';
+@import 'components/home/home.css';
+@import 'components/intro/intro.css';
 
 body {
   font-family: 'Lato', sans-serif;
   margin: 0;
+  background: url(http://i.imgur.com/X3JZ4z9.jpg?1);
 }
 
 .header-container {
@@ -12,6 +13,7 @@ body {
   width: 100%;
   padding: 20px 50px;
   color: white;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: transparent;
 }
 
@@ -21,11 +23,13 @@ body {
 }
 
 .header-title {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 100;
+  letter-spacing: 1px;
 }
 
 .header-title i {
   margin-right: 10px;
-  margin-left: 10px;
+  margin-left: 50px;
 }
+

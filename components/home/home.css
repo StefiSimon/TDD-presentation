@@ -1,13 +1,11 @@
 .title-container {
-    height: 650px;
     text-align: center;
-    background: url(http://i.imgur.com/X3JZ4z9.jpg?1);
 }
 
 .title-text {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight:100;
-    padding: 200px 0;
+    padding: 200px 0 300px 0;
     font-size: 100px;
     color: white;
     letter-spacing: 10px;
@@ -26,7 +24,11 @@
 }
 
 .title-container i {
-    font-size: 70px;
+    font-size: 60px;
     color: white;
     cursor: pointer;
+}
+
+.title-container i:hover {
+    color: darkgray;
 }
