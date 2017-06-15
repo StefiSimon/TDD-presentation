@@ -1,0 +1,40 @@
+.steps-container {
+    text-align: center;
+    display: flex;
+    padding: 150px 100px 50px 100px;
+}
+
+.step-container {
+    width: 20%;
+    color: white;
+}
+
+.step-container#repeat {
+    width: 100%;
+}
+
+.step-container i {
+    color: #EA4747;
+    font-size: 120px;
+}
+
+.step-title {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight:100;
+    letter-spacing: 1px;
+    font-size: 32px;
+    color: white;
+}
+
+.step-desc {
+    color: darkgray;
+}
+
+.steps-centered {
+    text-align: center;
+}
+
+.arrow-right.arrow-icon-steps {
+    position: fixed;
+    margin: 0 auto;
+}

@@ -1,0 +1,45 @@
+.related-container {
+    text-align: center;
+    padding: 150px 100px;
+}
+
+.related-separator {
+    padding: 20px 0;
+    color: #EA4747;
+}
+
+.related-example {
+    margin: 0 auto;
+    background-color: transparent;
+    padding: 10px;
+    width: 50%;
+    border-radius: 2px;
+}
+
+.related-example-inner {
+    padding: 20px 100px 70px 100px;
+    background-color: transparent;
+    border: 1px solid darkgray;
+}
+
+.slide-title-default.related-example-title {
+    text-transform: uppercase;
+    color: white;
+    font-size: 30px;
+    padding: 50px 0;
+}
+
+.related-example-info {
+    color: #5f5f5f;
+    font-size: 18px;
+}
+
+.related-example-code {
+    text-transform: uppercase;
+    color: white;
+    padding: 20px 0;
+    font-size: 18px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight:100;
+    letter-spacing: 1px;
+}

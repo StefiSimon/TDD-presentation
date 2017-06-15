@@ -2,13 +2,9 @@
     text-align: center;
 }
 
-.title-text {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight:100;
-    padding: 200px 0 300px 0;
+.slide-title-default.title-text {
+    padding: 200px 0 0 0;
     font-size: 100px;
-    color: white;
-    letter-spacing: 10px;
 }
 
 .title-text span {
@@ -23,12 +19,3 @@
     color: darkgray;
 }
 
-.title-container i {
-    font-size: 60px;
-    color: white;
-    cursor: pointer;
-}
-
-.title-container i:hover {
-    color: darkgray;
-}

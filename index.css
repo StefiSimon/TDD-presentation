@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Roboto');
 @import 'components/home/home.css';
 @import 'components/intro/intro.css';
+@import 'components/related/related.css';
+@import 'components/steps/steps.css';
 
 body {
   font-family: 'Lato', sans-serif;
@@ -31,5 +33,25 @@ body {
 .header-title i {
   margin-right: 10px;
   margin-left: 50px;
+}
+
+i.arrow-right {
+  position: absolute;
+  top: 700px;
+  color: white;
+  cursor: pointer;
+  font-size: 60px;
+}
+
+i.arrow-right:hover {
+  color: darkgray;
+}
+
+.slide-title-default {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  letter-spacing: 1px;
+  font-size: 48px;
+  color: white;
 }
 
