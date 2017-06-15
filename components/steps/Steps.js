@@ -101,7 +101,7 @@ class Steps extends Component {
                 step: 6,
             });
         } else {
-            browserHistory.push('/');
+            browserHistory.push('/laws');
         }
     }
 

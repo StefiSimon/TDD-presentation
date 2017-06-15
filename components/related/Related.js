@@ -9,12 +9,12 @@ class Related extends Component {
 
     render() {
         return (
-            <div className="related-container animated fadeInRightBig">
+            <div className="related-container">
                 <div className="related-title slide-title-default">
                     What about BDD?
                 </div>
                 <div className="related-separator introduction-separator">♦</div>
-                <div className="related-example">
+                <div className="related-example animated fadeInRightBig">
                     <div className="related-example-inner">
                         <div className="related-example-title slide-title-default">
                             Related concept

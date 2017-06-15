@@ -3,6 +3,8 @@
 @import 'components/intro/intro.css';
 @import 'components/related/related.css';
 @import 'components/steps/steps.css';
+@import 'components/laws/laws.css';
+@import 'components/reasons/reasons.css';
 
 body {
   font-family: 'Lato', sans-serif;

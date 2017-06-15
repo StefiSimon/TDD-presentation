@@ -1,0 +1,33 @@
+.reasons-container {
+    padding: 150px 100px;
+    text-align: center;
+}
+
+.fa.fa-question-circle-o {
+    margin-left: 10px;
+    color: #EA4747;
+}
+.reasons-comment {
+    padding: 20px;
+    color: darkgrey;
+    font-size: 20px;
+}
+
+.reason {
+    border-bottom: 1px solid #5f5f5f;
+    padding: 50px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.reason:last-of-type {
+    border: none;
+}
+
+.fa-circle-thin {
+    color: #EA4747;
+    margin-right: 20px;
+}
