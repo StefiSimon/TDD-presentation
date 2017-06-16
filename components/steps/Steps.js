@@ -1,54 +1,11 @@
 import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 import {browserHistory} from 'react-router';
-
-const secondStepHTML = (
-    <div className="animated fadeInRightBig">
-        <div><i className="fa fa-caret-square-o-right"></i></div>
-        <div className="step-title">Run the test</div>
-        <div className="step-desc">the new test does not pass without requiring new code</div>
-        <div className="step-desc">The new test should fail for the expected reason</div>
-    </div>
-);
-
-const thirdStepHTML = (
-    <div className="animated fadeInRightBig">
-        <div><i className="fa fa-pencil-square-o"></i></div>
-        <div className="step-title">Write the code</div>
-        <div className="step-desc">Write the code that causes the code to pass</div>
-        <div className="step-desc">The code may not be perfect, but the only purpose is to pass the test</div>
-    </div>
-);
-
-const fourthStepHTML = (
-    <div className="animated fadeInRightBig">
-        <div><i className="fa fa-caret-square-o-right"></i></div>
-        <div className="step-title">Run tests again</div>
-        <div className="step-desc">If all tests pass, the new code meets the requirements</div>
-        <div className="step-desc">If not, new code must be adjusted until tests pass</div>
-    </div>
-);
-
-const lastStepHTML = (
-    <div className="animated fadeInRightBig">
-        <div><i className="fa fa-wrench"></i></div>
-        <div className="step-title">Refactor code</div>
-        <div className="step-desc">The code base must be cleaned up regularly during TDD</div>
-        <div className="step-desc">Continually rerunning test cases to make sure everything works</div>
-    </div>
-);
-
-const repeatHTML = (
-    <div className="animated fadeInRightBig">
-        <div><i className="fa fa-repeat"></i></div>
-        <div className="step-title">REPEAT</div>
-        <div className="step-desc">The size of the steps must be small, with 1-10 edits between each test run</div>
-        <div className="step-desc">Receiving the expected test results boosts confidence and increases productivity
-        </div>
-        <div className="step-desc">Reduced debugging effort</div>
-        <div className="step-desc">Self-documenting tests – Small test cases are easier to read and to understand</div>
-    </div>
-);
+import Second from './Second';
+import Third from './Third';
+import Fourth from './Fourth';
+import Last from './Last';
+import Repeat from './Repeat';
 
 class Steps extends Component {
 
@@ -62,7 +19,7 @@ class Steps extends Component {
     nextSection = () => {
         if (this.state.step === 1) {
             ReactDOM.render(
-                secondStepHTML,
+                <Second/>,
                 document.getElementById('second')
             );
             this.setState({
@@ -70,7 +27,7 @@ class Steps extends Component {
             });
         } else if (this.state.step === 2) {
             ReactDOM.render(
-                thirdStepHTML,
+                <Third/>,
                 document.getElementById('third')
             );
             this.setState({
@@ -78,7 +35,7 @@ class Steps extends Component {
             });
         } else if (this.state.step === 3) {
             ReactDOM.render(
-                fourthStepHTML,
+                <Fourth/>,
                 document.getElementById('fourth')
             );
             this.setState({
@@ -86,7 +43,7 @@ class Steps extends Component {
             });
         } else if (this.state.step === 4) {
             ReactDOM.render(
-                lastStepHTML,
+                <Last/>,
                 document.getElementById('last')
             );
             this.setState({
@@ -94,7 +51,7 @@ class Steps extends Component {
             });
         } else if (this.state.step === 5) {
             ReactDOM.render(
-                repeatHTML,
+                <Repeat/>,
                 document.getElementById('repeat')
             );
             this.setState({

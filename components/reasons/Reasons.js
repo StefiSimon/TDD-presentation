@@ -3,7 +3,7 @@ import {browserHistory} from 'react-router';
 
 class Reasons extends Component {
 
-    changeRoute = (event) => {
+    changeRoute = () => {
         browserHistory.push('/examples');
     }
 

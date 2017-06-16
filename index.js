@@ -9,6 +9,7 @@ import Related from './components/related/Related';
 import Steps from './components/steps/Steps';
 import Laws from './components/laws/Laws';
 import Reasons from './components/reasons/Reasons';
+import Examples from './components/examples/Examples';
 
 const routes = (
     <Router history={browserHistory}>
@@ -19,6 +20,7 @@ const routes = (
                 <Route path="steps" component={Steps} />
                 <Route path="laws" component={Laws} />
                 <Route path="reasons" component={Reasons} />
+                <Route path="examples" component={Examples} />
             </Route>
     </Router>
 );

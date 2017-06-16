@@ -3,7 +3,7 @@ import {browserHistory} from 'react-router';
 
 class Home extends Component {
 
-    changeRoute = (event) => {
+    changeRoute = () => {
         browserHistory.push('/intro');
     }
 

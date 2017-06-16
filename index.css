@@ -5,6 +5,7 @@
 @import 'components/steps/steps.css';
 @import 'components/laws/laws.css';
 @import 'components/reasons/reasons.css';
+@import 'components/examples/example.css';
 
 body {
   font-family: 'Lato', sans-serif;
