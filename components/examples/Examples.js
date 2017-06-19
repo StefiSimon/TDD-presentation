@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import Question from './Question';
 import Steps from './Steps';
+import { browserHistory } from 'react-router';
 
 class Examples extends Component {
 
@@ -29,6 +30,8 @@ class Examples extends Component {
             this.setState({
                 step: 3,
             });
+        } else {
+            browserHistory.push('/demo');
         }
     }
 

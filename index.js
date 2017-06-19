@@ -10,6 +10,8 @@ import Steps from './components/steps/Steps';
 import Laws from './components/laws/Laws';
 import Reasons from './components/reasons/Reasons';
 import Examples from './components/examples/Examples';
+import Demo from './components/demo/Demo';
+import Conclusion from './components/conclusion/Conclusion';
 
 const routes = (
     <Router history={browserHistory}>
@@ -21,6 +23,8 @@ const routes = (
                 <Route path="laws" component={Laws} />
                 <Route path="reasons" component={Reasons} />
                 <Route path="examples" component={Examples} />
+                <Route path="demo" component={Demo} />
+                <Route path="conclusion" component={Conclusion} />
             </Route>
     </Router>
 );

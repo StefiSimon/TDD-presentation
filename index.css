@@ -6,6 +6,8 @@
 @import 'components/laws/laws.css';
 @import 'components/reasons/reasons.css';
 @import 'components/examples/example.css';
+@import 'components/demo/demo.css';
+@import 'components/conclusion/conclusion.css';
 
 body {
   font-family: 'Lato', sans-serif;
