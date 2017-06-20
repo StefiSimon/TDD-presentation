@@ -21,16 +21,13 @@ body {
   padding: 20px 50px;
   color: white;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background-color: transparent;
-}
-
-.header-container.gold {
-  background-color: white;
-  color: #262626;
+  background-color: black;
+  opacity: 0.6;
+  z-index: 2;
 }
 
 .header-title {
-  font-size: 18px;
+  font-size: 30px;
   font-weight: 100;
   letter-spacing: 1px;
 }
@@ -42,10 +39,10 @@ body {
 
 i.arrow-right {
   position: absolute;
-  top: 700px;
+  top: 900px;
   color: white;
   cursor: pointer;
-  font-size: 60px;
+  font-size: 100px;
 }
 
 i.arrow-right:hover {
@@ -56,7 +53,19 @@ i.arrow-right:hover {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 100;
   letter-spacing: 1px;
-  font-size: 48px;
+  font-size: 60px;
   color: white;
 }
 
+@media only screen and (max-width: 700px) {
+  .header-container {
+    padding: 20px 0;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .header-title i {
+    margin-right: 10px;
+    margin-left: 20px;
+  }
+}

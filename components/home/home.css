@@ -4,7 +4,7 @@
 
 .slide-title-default.title-text {
     padding: 200px 0 0 0;
-    font-size: 100px;
+    font-size: 200px;
 }
 
 .title-text span {
@@ -14,8 +14,9 @@
 .title-subtext {
     letter-spacing: 0px;
     padding-top: 20px;
-    font-size: 20px;
+    font-size: 50px;
     font-family: 'Lato', sans-serif;
     color: darkgray;
 }
+
 

@@ -41,9 +41,10 @@ class Examples extends Component {
                 <div className="examples-title slide-title-default animated fadeInRightBig">
                     Now let's see a small & simple example!
                 </div>
-                <i className="fa fa-angle-right arrow-right" onClick={this.renderNextItem}></i>
                 <div id="question"></div>
                 <div id="steps"></div>
+                <i className="fa fa-angle-right arrow-right arrow-example-icon" onClick={this.renderNextItem}></i>
+
             </div>
         )
     }

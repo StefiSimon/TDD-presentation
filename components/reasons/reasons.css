@@ -8,11 +8,10 @@
     color: #EA4747;
 }
 .reasons-comment {
-    padding: 20px;
+    padding: 50px;
     color: darkgrey;
-    font-size: 20px;
+    font-size: 35px;
 }
-
 
 .reason {
     margin: 0 auto;
@@ -24,6 +23,7 @@
     letter-spacing: 1px;
     text-transform: uppercase;
     color: white;
+    font-size: 30px;
 }
 
 .reason:last-of-type {
@@ -33,4 +33,16 @@
 .fa-circle-thin {
     color: #EA4747;
     margin-right: 20px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .reasons-container {
+        padding: 150px 50px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .reason {
+        width: 80%;
+    }
 }

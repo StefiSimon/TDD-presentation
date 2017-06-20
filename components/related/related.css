@@ -12,7 +12,7 @@
     margin: 0 auto;
     background-color: transparent;
     padding: 10px;
-    width: 50%;
+    width: 70%;
     border-radius: 2px;
 }
 
@@ -25,22 +25,45 @@
 .slide-title-default.related-example-title {
     text-transform: uppercase;
     color: white;
-    font-size: 30px;
+    font-size: 60px;
     padding: 50px 0;
 }
 
 .related-example-info {
-    color: #5f5f5f;
-    font-size: 18px;
+    color: darkgrey;
+    font-size: 35px;
 }
 
 .related-example-code {
     text-transform: uppercase;
     color: white;
     padding: 20px 0;
-    font-size: 18px;
+    font-size: 40px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight:100;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
 }
 
+@media only screen and (max-width: 1200px) {
+    .related-container {
+        padding: 150px 50px;
+    }
+
+    .related-example {
+        width: 80%;
+    }
+
+    .related-example-inner {
+        padding: 20px 50px 70px 50px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .related-example {
+        width: 90%;
+    }
+
+    .related-example-inner {
+        padding: 20px 20px 70px 20px;
+    }
+}

@@ -33,7 +33,7 @@ class Laws extends Component {
                         </div>
                     </div>
                 </div>
-                <i className="fa fa-angle-right arrow-right" onClick={this.changeRoute}></i>
+                <i className="fa fa-angle-right arrow-right arrow-laws-icon" onClick={this.changeRoute}></i>
             </div>
         );
     }

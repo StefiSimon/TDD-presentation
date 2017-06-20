@@ -43,18 +43,49 @@
 
 .introduction-info-main.introduction-info {
     padding: 20px 0;
-    font-size: 24px;
+    font-size: 40px;
     color: white;
     text-align: center;
 }
 .introduction-info {
     text-align: left;
-    padding: 10px 100px;
-    font-size: 18px;
+    padding: 10px 50px;
+    font-size: 30px;
     color: darkgray;
 }
 
 .introduction-info i {
     padding-right: 10px;
     color: #EA4747;
+}
+
+@media only screen and (max-width: 1200px) {
+    .introduction-container {
+        padding: 200px 50px 200px;
+    }
+
+    .introduction-info {
+        padding: 10px 50px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .introduction-container {
+        padding: 100px 50px 100px;
+        display: block;
+    }
+
+    .intro-column {
+        width: 90%;
+    }
+
+    .fa-angle-right.intro-arrow {
+        top: 850px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .introduction-container {
+        padding: 100px 10px 100px;
+    }
 }

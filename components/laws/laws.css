@@ -27,11 +27,39 @@
     color: white;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 100;
-    font-size:30px;
+    font-size:50px;
     padding-bottom: 20px;
 }
 
 .law-content {
     color: darkgray;
-    font-size: 18px;
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .laws-container {
+        padding: 150px 50px;
+    }
+
+    .law {
+        padding: 20px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .laws-row {
+        display: block;
+    }
+
+    .law {
+        padding: 50px;
+    }
+
+    .law-separator {
+        border-bottom: 1px solid #EA4747;
+    }
+
+    .arrow-laws-icon.arrow-right {
+        top: 1200px;
+    }
 }

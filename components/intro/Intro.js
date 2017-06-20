@@ -12,7 +12,7 @@ class Intro extends Component {
             <div className="introduction-container-block">
                 <div className="introduction-container" id="intro">
                     <div className="intro-column animated fadeIn">
-                        <img src="http://screenster.io/wp-content/uploads/2016/12/TDD-diagram_02.png"/>
+                        <img src="http://screenster.io/wp-content/uploads/2016/12/TDD-diagram_02.png" width="500"/>
                     </div>
                     <div className="intro-column">
                         <div className="introduction-title slide-title-default">
@@ -20,12 +20,11 @@ class Intro extends Component {
                         </div>
                         <div className="introduction-separator">♦</div>
                         <div className="introduction-info introduction-info-main animated fadeIn">
-                            Software development process that relies on the repetition of a cycle:
+                            Process that relies on the repetition of a cycle:
                         </div>
                         <div className="introduction-info animated fadeIn">
                             <i className="fa fa-chevron-circle-right"></i>
-                            Developer writes an (initially failing) automated test case that defines a desired
-                            functionality
+                            Developer writes an (initially failing) automated test case
                         </div>
                         <div className="introduction-info animated fadeIn">
                             <i className="fa fa-chevron-circle-right"></i>
@@ -37,7 +36,7 @@ class Intro extends Component {
                         </div>
                     </div>
                 </div>
-                <i className="fa fa-angle-right arrow-right" onClick={this.changeRoute}></i>
+                <i className="fa fa-angle-right arrow-right intro-arrow" onClick={this.changeRoute}></i>
             </div>
         );
     }
