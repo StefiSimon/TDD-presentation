@@ -1,0 +1,26 @@
+.conclusion-container {
+    padding: 200px;
+    text-align: center;
+}
+.conclusion-title {
+    width: 50%;
+    margin: 0 auto;
+    border-bottom: 1px dotted #EA4747;
+}
+
+
+.conclusion-text {
+    font-style: italic;
+    margin-top: 100px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 45px;
+    color: #EA4747;
+}
+
+.conclusion-text.feedback {
+    font-weight: 100;
+    font-size: 50px;
+    font-style: normal;
+    color: white;
+}

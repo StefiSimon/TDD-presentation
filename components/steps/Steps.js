@@ -69,9 +69,6 @@ class Steps extends Component {
                     <div className="step-container animated fadeInRightBig">
                         <div><i className="fa fa-plus-square-o"></i></div>
                         <div className="step-title">Add a test</div>
-                        {/*<div className="step-desc">Understanding of pecifications and requirements</div>*/}
-                        {/*<div className="step-desc">Use cases/user stories</div>*/}
-                        {/*<div className="step-desc">Focus on the requirements before writing the code</div>*/}
                     </div>
                     <div className="step-container" id="second">
                     </div>

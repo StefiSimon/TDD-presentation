@@ -1,5 +1,5 @@
 .laws-container {
-    padding: 150px 100px;
+    padding: 200px 100px;
     text-align: center;
 }
 .laws-title {
@@ -33,7 +33,7 @@
 
 .law-content {
     color: darkgray;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 @media only screen and (max-width: 1200px) {

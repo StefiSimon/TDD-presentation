@@ -31,3 +31,16 @@
     position: relative;
     top: 20px;
 }
+
+.fa-angle-left.demo-fa {
+    cursor: pointer;
+    color: white;
+    font-size: 100px;
+    position: relative;
+    top: 20px;
+    margin-right: 20px;
+}
+
+.fa-angle-left.demo-fa:hover {
+    color: darkgrey;
+}
