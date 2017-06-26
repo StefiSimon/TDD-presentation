@@ -22,7 +22,7 @@ class Reasons extends Component {
                         <i className="fa fa-circle-thin"> </i>Makes debugging easier
                     </div>
                     <div className="reason">
-                        <i className="fa fa-circle-thin"> </i>Makes coding challenging
+                        <i className="fa fa-circle-thin"> </i>Strong documentation for the app
                     </div>
                 </div>
                 <i className="fa fa-angle-right arrow-right" onClick={this.changeRoute}></i>

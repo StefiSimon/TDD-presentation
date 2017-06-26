@@ -44,6 +44,9 @@
 .introduction-info-main.introduction-info {
     padding: 20px 0;
     font-size: 40px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight:100;
+    letter-spacing: 2px;
     color: white;
     text-align: center;
 }

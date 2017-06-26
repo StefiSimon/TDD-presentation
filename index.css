@@ -8,6 +8,7 @@
 @import 'components/examples/example.css';
 @import 'components/demo/demo.css';
 @import 'components/conclusion/conclusion.css';
+@import 'components/about/about.css';
 
 body {
   font-family: 'Lato', sans-serif;

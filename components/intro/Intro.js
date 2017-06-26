@@ -24,15 +24,15 @@ class Intro extends Component {
                         </div>
                         <div className="introduction-info animated fadeIn">
                             <i className="fa fa-chevron-circle-right"></i>
-                            Developer writes an (initially failing) automated test case
+                            RED - Initially failing test
                         </div>
                         <div className="introduction-info animated fadeIn">
                             <i className="fa fa-chevron-circle-right"></i>
-                            Produces minimum amount of code that enables that test to pass
+                            GREEN - Write code to make the test pass
                         </div>
                         <div className="introduction-info animated fadeIn">
                             <i className="fa fa-chevron-circle-right"></i>
-                            Refactors the code to traditional standards
+                            REFACTORING - Refactoring code
                         </div>
                     </div>
                 </div>

@@ -5,7 +5,7 @@ const Steps = () => (
         <div className="half-row">
         <div className="logic-step">
             <div className="card-title">Purpose?</div>
-            <div className="card-info">Send a reuqest to Flickr API to get some photos</div>
+            <div className="card-info">Send a request to Flickr API to get some photos</div>
             <div className="card-icon-row">
                 <i className="fa fa-picture-o"></i>
                 <i className="fa fa-file-image-o"></i>
@@ -23,7 +23,7 @@ const Steps = () => (
         <div className="half-row">
         <div className="logic-step">
             <div className="card-title">Tools?</div>
-            <div className="card-info">Use jQuery to do that (AJAX)</div>
+            <div className="card-info">Use Mocha as a testing framework combined with Chai (assertion library)</div>
             <div className="card-icon-row">
                 <i className="fa fa-file-code-o"></i>
                 <i className="fa fa-code"></i>

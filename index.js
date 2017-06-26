@@ -12,11 +12,13 @@ import Reasons from './components/reasons/Reasons';
 import Examples from './components/examples/Examples';
 import Demo from './components/demo/Demo';
 import Conclusion from './components/conclusion/Conclusion';
+import About from './components/about/About';
 
 const routes = (
     <Router history={browserHistory}>
             <Route path="/" component={App}>
                 <IndexRoute component={Home}/>
+                <Route path="about" component={About} />
                 <Route path="intro" component={Intro}/>
                 <Route path="related" component={Related} />
                 <Route path="steps" component={Steps} />

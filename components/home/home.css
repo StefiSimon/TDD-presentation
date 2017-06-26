@@ -1,14 +1,11 @@
 .title-container {
     text-align: center;
+    padding: 0 300px;
 }
 
 .slide-title-default.title-text {
     padding: 200px 0 0 0;
     font-size: 200px;
-}
-
-.title-text span {
-    border-bottom: 1px solid #EA4747;
 }
 
 .title-subtext {
@@ -19,4 +16,30 @@
     color: darkgray;
 }
 
+.title-text-separator {
+    position: relative;
+    font-size: 80px;
+    color: white;
+}
 
+.title-text-separator:before {
+    float: left;
+    display: block;
+    width: 40%;
+    content: '';
+    margin-top: 10px;
+    border: 1px solid #eeeeee;
+    margin-bottom: 10px;
+    opacity: 0.5;
+}
+
+.title-text-separator:after {
+    float: right;
+    display: block;
+    width: 40%;
+    content: '';
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #eeeeee;
+    opacity: 0.5;
+}
